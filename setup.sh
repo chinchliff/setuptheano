@@ -1,6 +1,6 @@
 ### set configuration variables here
 
-CUDA_IP=54.193.74.42 # public ip of the server
+CUDA_IP=127.0.0.1 # public ip of the server
 CUDA_USER=ubuntu # user name for logging in to the server
 CUDA_PEM=~/cuda_ca.pem # local identity file to use for ssh login
 
