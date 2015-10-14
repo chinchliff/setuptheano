@@ -1,0 +1,1 @@
+Just a simple set of scripts to automate the setup of Theano/Keras with CUDA support on a remote machine.
