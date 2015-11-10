@@ -6,6 +6,7 @@ target='tree_learning_test_data' # the name to use for the dir and the zip file
 echo "wget -O $target.zip $downloadurl" > $script
 echo "rm -R $target" >> $script
 echo "mkdir $target && cd $target && unzip -o ../$target.zip" >> $script
+echo "rm ../$target.zip" >> $script
 chmod +x $script
 
 # make sure certs are up to date so we can connect to dropbox
